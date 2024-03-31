@@ -7,7 +7,7 @@ const { getTodos,getTodoById } = require("../controllers/getTodo.js");
 const { updateTodo} = require("../controllers/updateTodo");
 const { deleteTodo} = require("../controllers/deleteTodo");
 
-//define APi routes
+//define Api routes
 router.post("/createTodo", createTodo);
 router.get("/getTodos", getTodos);
 router.get("/getTodo/:id", getTodoById);

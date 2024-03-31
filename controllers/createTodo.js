@@ -1,8 +1,10 @@
-//import th model
+//import the model
 const Todo = require("../models/Todo");
+//../models/Todo   modals me Todo file name hai
 
 //define route handler
-
+// async make promis i will return
+// await wait till return
 exports.createTodo = async(req,res) => {
     try {
             //extract title and desxcription from reauest body
