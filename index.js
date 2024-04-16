@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 //OR THIS
+// parser means extreacing the data  from UI
 // const bodyParser = require("body-parser");
 // // parse JSON data & add it to the request.Body object
 // app.use(bodyParser.json());
